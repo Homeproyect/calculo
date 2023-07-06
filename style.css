@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-size: cover;
+background-repeat:no-repeat ;
+background-position: center;
+background-attachment:fixed;
+             background-image: url(pig.jpg);
+}
+
+table{
+
+    position: relative;
+    width: 150 px;
+    height: 140px ;
+    text-align: center;
+}
+input{
+    text-align:center;
+   
+    background-color: transparent;
+    color:black;
+    box-shadow: 5px 5px 3px rgb(83, 75, 75);
+}
+
+#button{
+
+    background-color: darkgray;
+}
+
+::placeholder{
+
+    color:black;
+}
