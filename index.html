@@ -1,35 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-calculador de dosis de medicacion
+       calculador de dosis de medicacion
         </title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
 
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <center>
         
          <h1>Calcula tu medicacion</h1>
      <form>
      <center>
-        <table>
+        <table >
+            <tr >
+                <th >
+                   <h4>Mg por kg de peso vivo</h4>
+                </th>
+      
+                <th>
+                 <h4>Peso vivo de el animal</h4>
+                </th>
+      
+                <th>
+                 <h4>Cant. de animales</h4>
+                </th>
+      
+                <th>
+                  <h4>% de concentracion</h4>
+                 </th>
+      
+               </tr>
 
          <tr>
           <th>
-           <input type="text" placeholder="mg por kg de peso vivo" id="dosis" value="">
+           <input type="text" placeholder="Mg por kg de peso vivo" id="dosis" value="">
           </th>
 
           <th>
-           <input type="text" placeholder="peso vivo de el animal" id="peso" value="">
+           <input type="text" placeholder="Peso vivo de el animal" id="peso" value="">
           </th>
 
           <th>
-           <input type=text placeholder="cant. de animales" id="cantidad" value="">
+           <input type=text placeholder="Cant. de animales" id="cantidad" value="">
           </th>
 
           <th>
-            <input type=text placeholder="% de concentracion de el producto" id="porcentage" value="">
+            <input type=text placeholder="%" id="porcentaje" value="">
            </th>
 
          </tr>
@@ -40,8 +60,11 @@ calculador de dosis de medicacion
 
           </th>
 
-          <th>
+          <th colspan="2">
             <input type="button" value="calcular" onclick="go()" id="button">
+          </th>
+          <th>
+
           </th>
 
          </tr>
@@ -52,11 +75,15 @@ calculador de dosis de medicacion
 
             </th>
             <th>
-                <h4>dosis de kg a aplicar</h4>
+                <h4>Dosis de kg a aplicar</h4>
             </th>
 
             <th>
-                <h4>dosis de mg a aplicar</h4>
+                <h4>Dosis de mg a aplicar</h4>
+            </th>
+
+            <th>
+
             </th>
          </tr>
 
@@ -66,18 +93,25 @@ calculador de dosis de medicacion
 
             </th>
             <th>
-                <input type="text" id="resultado1" placeholder="">
+                <input type="text" id="resultado1" placeholder="kg">
             </th>
             </th>
 
             <th>
-                <input type="text" id="resultado" placeholder="">
+                <input type="text" id="resultado" placeholder="mg">
+            </th>
+            <th>
+
             </th>
          </tr>
 
         </table>
     </center>
      </form>
+
       <script type="text/javascript" src="main.js"></script>
+
+       </center>
+
      </body>
 </html>
