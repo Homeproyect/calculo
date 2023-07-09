@@ -4,7 +4,7 @@ body{
 background-repeat:no-repeat ;
 background-position: center;
 background-attachment:fixed;
-             background-image: url(pig.jpg);
+             background-image: url(img/pig.jpg);
 }
 
 table{
@@ -19,9 +19,14 @@ input{
    
     background-color: transparent;
     color:black;
-    box-shadow: 5px 5px 3px rgb(83, 75, 75);
+    box-shadow: 6px 10px 4px rgb(34, 27, 27);
+    border-radius: 0%;
 }
 
+#button{
+   
+    border-radius: 40%;
+}
 #button{
 
     background-color: darkgray;
